@@ -13,8 +13,8 @@ import (
 )
 
 var server = controllers.Server{}
-var userinstance = models.User{}
-var postinstance = models.Post{}
+var userInstance = models.User{}
+var postInstance = models.Post{}
 
 func TestMain(m *testing.M) {
 	var err error
